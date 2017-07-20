@@ -1,0 +1,42 @@
+{
+  "name": "react-mobx-admin-blog",
+  "version": "1.0.0",
+  "description": "MobX state for simple blog app",
+  "main": "dist/react-mobx-admin-blog.js",
+  "keywords": [
+    "admin",
+    "mobx",
+    "example"
+  ],
+  "author": "vencax <vencax77@gmail.com>",
+  "repository": "https://github.com/vencax/react-mobx-admin-blog",
+  "license": "ISC",
+  "peerDependencies": {
+    "axios": "^0.14.0",
+    "mobx": "^2.3.7",
+    "mobx-react": "^3.5.1",
+    "react": "^15.2.1",
+    "deep-equal": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.10.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.18.0",
+    "jsdom": "^9.8.3",
+    "json-server": "^0.8.22",
+    "react-addons-test-utils": "^15.3.0",
+    "tape": "^4.6.2",
+    "webpack": "^3.3.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
